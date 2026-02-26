@@ -2,8 +2,15 @@
 
 ## Project Summary
 
-`Udacity_Agentic_AI` is a hands-on learning repository for LLM reasoning, planning, and agentic workflows.
-**Stack:** macOS · VS Code · Jupyter Notebooks · Python 3 (.venv)
+`Udacity_Data_Engineer` is a hands-on learning repository for Data Engineering with Azure, Apache Spark, and NoSQL.
+**Stack:** macOS · VS Code · Jupyter Notebooks · Python 3 (.venv) · Azure · Apache Spark
+
+> **Multi-repo workspace:** This repository is one of three open simultaneously in VS Code:
+> - `Udacity_Agentic_AI` — LLM reasoning, planning, agentic workflows
+> - `Udacity_Generative_AI` — Foundation models, LLMs, GenAI solutions
+> - `Udacity_Data_Engineer` — **(this repo)** Data Engineering with Azure, Spark, and NoSQL
+>
+> Skills and memory are always read from **this repo's** `.github/skills/` and `.github/agents/memory/`.
 
 ## Repository Layout
 
@@ -17,10 +24,11 @@ CLAUDE.md                           ← Claude Code tool adapter
   prompts/documentation_workflow.prompt.md ← /documentation_workflow slash command
   skills/                           ← Agent skills (agent-memory, git-commit, tech-writer, …)
   agents/memory/                    ← Persistent memory files
-1_Prompting_for_Effective_LLM_Reasoning_and_Planning/
-2_Agentic_Workflows/
-3_Building_Agents/
-4_Multi-Agent_Systems/
+Azure-Data-Lake-Databricks/
+Azure-Data-Warehouse-Synapse/
+Data-Integration-Pipelines/
+Data-Modeling-Apache-Cassandra/
+Spark Lessons/
 ```
 
 ## Critical Rules (from AGENTS.md)

@@ -27,7 +27,8 @@ N_Module_Name/
 ## Modules
 | Folder | Topic |
 |---|---|
-| `1_Prompting_for_Effective_LLM_Reasoning_and_Planning/` | Role-based prompting, CoT, ReAct, prompt chaining, feedback loops |
-| `2_Agentic_Workflows/` | Agentic workflow modeling, modern AI agents |
-| `3_Building_Agents/` | Agent construction patterns |
-| `4_Multi-Agent_Systems/` | Multi-agent orchestration |
+| `Azure-Data-Lake-Databricks/` | Data Lake Gen2, ETL with Azure Databricks |
+| `Azure-Data-Warehouse-Synapse/` | Data Warehouse, Azure Synapse Analytics |
+| `Data-Integration-Pipelines/` | Data integration pipelines, Azure Data Factory |
+| `Data-Modeling-Apache-Cassandra/` | NoSQL data modeling with Apache Cassandra |
+| `Spark Lessons/` | Apache Spark — DataFrames, Spark SQL |

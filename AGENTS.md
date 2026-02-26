@@ -1,14 +1,21 @@
 # AI Agent Instructions
 
-This repository hosts Udacity Agentic AI exercises focused on effective prompting for LLM reasoning and planning. Keep guidance minimal, precise, and aligned with the actual workspace.
+This repository hosts Udacity Data Engineer projects covering data lakes, data warehouses, integration pipelines, NoSQL modeling, and Apache Spark. Keep guidance minimal, precise, and aligned with the actual workspace.
 
 > **Single source of truth** for all AI assistants (Claude Code, GitHub Copilot, Cursor, etc.).
 > Each tool has its own adapter file that maps generic tool references to its native equivalents.
 
+> **Multi-repo workspace:** This repository is one of three open simultaneously in VS Code:
+> - `Udacity_Agentic_AI` — LLM reasoning, planning, agentic workflows
+> - `Udacity_Generative_AI` — Foundation models, LLMs, GenAI solutions
+> - `Udacity_Data_Engineer` — **(this repo)** Data Engineering with Azure, Spark, and NoSQL
+>
+> Skills and memory are always read from **this repo's** `.github/skills/` and `.github/agents/memory/`.
+
 ## 1. Repository Context
 
-- Purpose: hands-on notebooks and lightweight utilities for LLM reasoning and planning.
-- Stack: macOS + VS Code + Jupyter + Python.
+- Purpose: hands-on projects and SQL/Python scripts for Data Engineering — data lakes, warehouses, pipelines, NoSQL modeling, and Apache Spark.
+- Stack: macOS + VS Code + Jupyter + Python + Azure + Apache Spark.
 
 ## 2. Repository Structure
 
@@ -30,19 +37,20 @@ This repository hosts Udacity Agentic AI exercises focused on effective promptin
 │       ├── prompt-engineering/  skill-creator/  crafting-effective-readmes/
 ├── .claude/                                   # Claude Code specific agents
 │   └── agents/plan.md                         # Plan agent (Claude format)
-├── 1_Prompting_for_Effective_LLM_Reasoning_and_Planning/
-│   ├── docs/
-│   └── exercises/
-├── 2_Agentic_Workflows/
-│   ├── docs/
-│   └── exercises/
-├── 3_Building_Agents/
-│   ├── docs/
-│   └── exercises/
-├── 4_Multi-Agent_Systems/
-│   ├── docs/
-│   └── exercises/
-├── scripts/                                   # Reusable Python utilities for notebooks
+├── Azure-Data-Lake-Databricks/                # Data Lake Gen2, ETL com Azure Databricks
+│   ├── *.ipynb / *.dbc
+│   └── README.md
+├── Azure-Data-Warehouse-Synapse/              # Data Warehouse e Azure Synapse Analytics
+│   ├── *.py / *.json
+│   └── README.md
+├── Data-Integration-Pipelines/               # Pipelines de integração, Azure Data Factory
+│   ├── sql/
+│   └── README.md
+├── Data-Modeling-Apache-Cassandra/           # Modelagem NoSQL com Apache Cassandra
+│   ├── *.ipynb
+│   └── README.md
+├── Spark Lessons/                            # Apache Spark — DataFrames, Spark SQL
+│   └── *.ipynb
 └── .venv/                                     # Local Python virtual environment (optional)
 ```
 
